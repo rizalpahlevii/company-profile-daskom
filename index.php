@@ -6,26 +6,46 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Company Profile</title>
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/fontawesome/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    <nav>
-        <div class="wrap">
-            <div class="title">WebsiteKU</div>
-            <div class="menu">
-                <ul>
-                    <li><a href="index.php?page=home"></a></li>
-                    <li><a href="index.php?page=about"></a></li>
-                    <li><a href="index.php?page=future"></a></li>
-                    <li><a href="index.php?page=contact"></a></li>
+    <header>
+        <nav>
+            <div class="container">
+                <h1 class="judul">
+                    <base href="">
+                    CompanyProfile
+                    </base>
+                </h1>
+                <ul class="navigasi">
+                    <li><a href="index.php?p=home">Home</a></li>
+                    <li><a href="index.php?p=about">About</a></li>
+                    <li><a href="index.php?p=service">Service</a></li>
+                    <li><a href="index.php?p=contact">Contact</a></li>
                 </ul>
             </div>
+            <div class="clearfix"></div>
+        </nav>
+    </header>
+
+    <main>
+        <?php
+        if (isset($_GET['p'])) {
+            $page = $_GET['p'];
+            include "contents/$page.php";
+        } else {
+            include "contents/home.php";
+        }
+        ?>
+    </main>
+    <footer>
+        <div class="container">
+            <small>Copyright &copy; 2020 - Kelompok 4110 Build With <span style="font-size: 14px;color: #A20021;"><i class="fas fa-heart"></i></span></small>
         </div>
-    </nav>
-
-
-
-
+    </footer>
     <script src="assets/js/script.js"></script>
 </body>
 

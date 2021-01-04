@@ -1,0 +1,138 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+        Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-size: 14px;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+nav .container {
+    padding-top: 20px;
+}
+
+nav .judul {
+    float: left;
+    padding-bottom: 20px;
+    color: #2ea3f2;
+}
+nav .navigasi {
+    float: right;
+}
+nav .navigasi li {
+    display: inline-block;
+}
+nav .navigasi li a {
+    display: inline-block;
+    text-decoration: none;
+    text-transform: capitalize;
+    color: rgba(0, 0, 0, 0.6);
+    font-weight: bold;
+    padding: 6px 25px;
+}
+nav .navigasi li a:hover {
+    color: #2ea3f2;
+    transition: ease-in-out 0.2s;
+}
+.active {
+    background-color: #2ea3f2;
+    color: #fff !important;
+}
+.clearfix {
+    clear: both;
+}
+
+.banner {
+    height: 80vh;
+    background-image: url(../img/banner.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner::after {
+    content: "";
+    display: block;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(174, 182, 181, 0.4);
+}
+
+.banner {
+    padding: 50px 0;
+}
+.banner .judul {
+    position: relative;
+    color: #ffffff;
+    font-size: 50px;
+    font-weight: bold;
+}
+.about {
+    padding: 30px 0;
+    color: #000;
+    text-align: center;
+    word-spacing: 4px;
+    line-height: 1.4rem;
+}
+h2,
+h3 {
+    color: #333333;
+    font-family: "Open Sans";
+    margin: 15px 0;
+}
+.subjudul {
+    margin-bottom: 20px;
+}
+.service {
+    padding: 30px 0;
+    background-color: #f7f7f7;
+    text-align: center;
+}
+.service h2 {
+    /* background-color: #fafafa; */
+    color: #000;
+}
+.box-outer {
+    display: flex;
+    justify-content: space-between;
+    flex-flow: wrap;
+}
+.service .box-outer .box .icon span {
+    color: #2ea3f2;
+    font-size: 24px;
+    padding: 20px;
+    border: 1px solid #2ea3f2;
+    border-radius: 50%;
+}
+.service .box-outer .box:first-child .icon span {
+    padding: 20px 28px;
+    border: 1px solid #2ea3f2;
+    border-radius: 50%;
+}
+.box-outer .box .icon {
+    padding: 20px;
+    margin-bottom: 8px;
+}
+.box-outer .box .judul {
+    margin-bottom: 8px;
+}
+.box-outer .box {
+    width: 25%;
+    padding: 10px;
+}
+footer {
+    background-color: #2ea3f2;
+    color: #fff;
+    text-align: right;
+    padding: 12px 0;
+}
