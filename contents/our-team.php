@@ -45,8 +45,8 @@
                 <div class="card">
                     <img src="assets/img/fara_d.jpg" alt="John" style="width:100%">
                     <div class="container">
-                        <h2>Student</h2>
-                        <p class="title">Designer</p>
+                        <h2>Farra Mahaputri</h2>
+                        <p class="title">Student</p>
                         <p><button class="button">Contact</button></p>
                     </div>
                 </div>
