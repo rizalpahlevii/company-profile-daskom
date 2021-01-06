@@ -11,7 +11,7 @@
     </div>
 </section>
 
-<section class="about-photo">
+<section class="about-photo" style="margin-bottom: 30px;">
     <div class="container">
         <div class="row">
             <div class="column">

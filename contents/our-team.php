@@ -4,7 +4,7 @@
         <p>Our team is special. They are chosen for their competence and the totality of the client.</p>
     </div>
 </section>
-<div class="container">
+<div class="container" style="margin-bottom: 30px;">
     <div class="our-team">
         <div class="row">
 
