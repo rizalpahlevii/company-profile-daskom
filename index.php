@@ -23,7 +23,7 @@
                 <ul class="navigasi">
                     <li><a href="index.php?p=home">Home</a></li>
                     <li><a href="index.php?p=about">About</a></li>
-                    <li><a href="index.php?p=service">Service</a></li>
+                    <li><a href="index.php?p=our-team">Our Team</a></li>
                     <li><a href="index.php?p=contact">Contact</a></li>
                 </ul>
             </div>
