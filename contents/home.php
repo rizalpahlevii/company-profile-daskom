@@ -1,6 +1,6 @@
 <section>
     <div class="banner">
-        <h2 class="judul">Company Profilku </h2>
+        <h2 class="judul-image">Company Profilku </h2>
     </div>
 </section>
 

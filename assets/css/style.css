@@ -58,7 +58,26 @@ nav .navigasi li a:hover {
     justify-content: center;
     align-items: center;
 }
+.banner-about {
+    height: 80vh;
+    background-image: url(../img/banner-about.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .banner::after {
+    content: "";
+    display: block;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(174, 182, 181, 0.4);
+}
+.banner-about::after {
     content: "";
     display: block;
     top: 0;
@@ -71,7 +90,7 @@ nav .navigasi li a:hover {
 .banner {
     padding: 50px 0;
 }
-.banner .judul {
+.judul-image {
     position: relative;
     color: #ffffff;
     font-size: 50px;
@@ -135,4 +154,41 @@ footer {
     color: #fff;
     text-align: right;
     padding: 12px 0;
+}
+
+/* about gallery */
+
+.column {
+    float: left;
+    width: 25%;
+    padding: 10px;
+}
+.column img {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.column img:hover {
+    opacity: 1;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#imgtext {
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+    color: white;
+    font-size: 20px;
+}
+.closebtn {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    color: white;
+    font-size: 35px;
+    cursor: pointer;
 }
