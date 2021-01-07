@@ -43,7 +43,7 @@
             </div>
             <div class="column">
                 <div class="card">
-                    <img src="assets/img/fara_d.jpg" alt="John" style="width:100%">
+                    <img src="assets/img/farra_m.jpeg" alt="John" style="width:100%">
                     <div class="container">
                         <h2>Farra Mahaputri</h2>
                         <p class="title">Student</p>

@@ -12,7 +12,7 @@
     </div>
 </section>
 
-<section class="service">
+<section class="service" style="margin-bottom: 30px;">
     <div class="container">
         <h2>Service</h2>
         <p class="subjudul">We believe that our services is best solution to you because we have reliable and trustworthy technicians</p>
